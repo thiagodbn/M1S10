@@ -1,0 +1,4 @@
+.container-remedio {
+    display: flex;
+    flex-wrap: wrap;
+}

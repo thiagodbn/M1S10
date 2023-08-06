@@ -17,11 +17,14 @@ function App() {
   return(
     <>
     <Header/>
-    
+       
+
       <FormularioNovoMedicamento/>
+      <div className='container-remedio'>
       {listaMedicamentos.map(medicamento => (
         <CardMedicamento key={medicamento.id} medicamento={medicamento} />
-      ))}
+        ))}
+        </div>
 
     </>
   )
